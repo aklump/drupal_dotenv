@@ -1,0 +1,22 @@
+{
+    "name": "aklump/drupal_dotenv",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AKlump\\DrupalDotEnv\\": "src/"
+        },
+        "files": [
+            "load_dotenv.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Aaron Klump",
+            "email": "sourcecode@intheloftstudios.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "license": "GPL-2.0-or-later"
+}
